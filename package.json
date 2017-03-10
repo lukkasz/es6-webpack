@@ -1,0 +1,34 @@
+{
+  "name": "es6-webpack-boilerplate-with-express",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "author": "lukkasz",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-eslint": "6",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-1": "^6.22.0",
+    "eslint": "3.17.1",
+    "eslint-config-rallycoding": "^3.2.0",
+    "node-sass": "^4.5.0",
+    "nodemon": "^1.11.0",
+    "rimraf": "^2.6.1"
+  },
+  "scripts": {
+    "clean": "rimraf public/assets",
+    "build": "./bin/build",
+    "build-js": "./bin/build-js",
+    "build-css": "./bin/build-css",
+    "server-watch": "./bin/server-watch",
+    "start": "./bin/start"
+  }
+}
